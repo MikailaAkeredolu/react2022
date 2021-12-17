@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+//<App /> is rendered here therefore jsx shows on home page
 ReactDOM.render(
   <React.StrictMode>
     <App />

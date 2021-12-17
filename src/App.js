@@ -23,3 +23,20 @@ function App() {
 }
 
 export default App;
+
+
+/*
+//Create a new branch
+  Git branch nameOfBranch
+  git add -A
+  git commit -m"...""
+
+//Switch back to master branch
+  Git checkout main
+
+Merge branch
+  Git merge nameOfBranch
+  Git push --set-upstream origin nameOfBranch
+
+
+*/

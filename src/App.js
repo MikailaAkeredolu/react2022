@@ -1,6 +1,7 @@
 //Class based Component
 import React from 'react';
 import './App.css';
+import Navbar from './components/layout/Navbar';
 
 // className and htmlFor instead of class="" and for=""
 //elements must be within parent div
@@ -16,8 +17,8 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        
         {/* {loading ? <h4>Loading...</h4> : <h1>Hello {showName ? name : null}...welcome to react class components</h1>} */}
+        <Navbar title={'GitHub Finder'}/>
         {loading ? <h4>Loading...</h4> : <h1>Hello {showName && name}...welcome to react class components</h1>}
         <h2>Goodbye</h2>
         <label htmlFor="name">Name</label>
